@@ -77,10 +77,131 @@
 }
 
 .header-image {
-    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1f2937;
     background-color: gray;
     text-align: center;
     max-width: 800px;
     flex: 1 1 auto;
 }
 
+/******INFO******/
+
+.info-container {
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-container h2 {
+    margin-top: 40px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    flex: 1;
+}
+
+.info-container .info {
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+.info-box {
+    width: 250px;
+}
+
+.info-box .info-img {
+    border: 6px solid #3882F6;
+    border-radius: 20px;
+    width: 220px;
+    height: 220px;
+}
+
+.info-box .info-text {
+    text-align: center;
+}
+
+/******THOR******/
+
+.thor {
+    background-color: #E5E7EB;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.thor-text {
+    max-width: 1500px;
+    padding: 50px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor-name {
+    font-size: 24px;
+    font-weight: 700;
+    display: flex;
+    font-style: normal;
+    justify-content: flex-end;
+}
+
+/******CALL ACTION******/
+
+.call-container {
+    height: 300px;
+    box-sizing: border-box;
+    padding: 50px 100px;
+}
+
+.call-box {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.call-box .call {
+    margin-left: 20px;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.call-box .call-link {
+    background-color: #3882F6;
+    padding: 10px 35px;
+    border: 4px solid #E5E7EB;
+    border-radius: 15px;
+    color: #E5E7EB;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/******FOOTER******/
+
+footer {
+    background-color: #1f2937;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
