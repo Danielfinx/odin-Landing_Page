@@ -2,7 +2,7 @@
 
 > this Html project is used to show a simple landing page "about" football.
 
-![screenshot](/Screenshots/Screenshot_1.png)
+![screenshot](/Screenshots/Screenshot_01.png)
 
 ## Built With
 
