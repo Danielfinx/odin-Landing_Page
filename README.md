@@ -1,6 +1,7 @@
 # odin-Landing Page
 
-> this Html project is used to show information about various recipes.
+> this Html project is used to show a simple landing page "about" football.
+
 ![screenshot](/Screenshots/Screenshot_01.png)
 
 ## Built With
