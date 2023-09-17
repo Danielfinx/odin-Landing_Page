@@ -126,6 +126,9 @@
 
 .info-box {
     width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .info-box .info-img {
