@@ -4,6 +4,13 @@
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 /******HERO******/
@@ -11,10 +18,10 @@
 .hero-container {
     background-color: #1f2937;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
-    height: 50px;
-    padding-top: 10px;
+    padding: 18px 10%;
+    text-align: center;
 }
 
 .hero-container .logo {
@@ -25,7 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 15px;
 }
 
 .hero-container .logo img {
@@ -36,34 +43,34 @@
 
 .hero-container .links {
     display: flex;
-    gap: 30px;
+    gap: 20px;
 }
 
 .link-one, .link-two, .link-three {
     color: #E5E7EB;
     font-size: 18px;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 
 /******HEADER******/
 
 .header-container {
     background-color: #1f2937;
-    height: 450px;
     display: flex;
-    justify-content: center;
-    box-sizing: border-box;
-    padding: 60px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 10%;
+    gap: 40px;
 }
 
 .header{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    max-width: 40%;
-    flex: 1;
     gap: 20px;
-    padding-right: 20px;
+    flex-basis: 500px;
 }
 
 .header-container h1 {
@@ -88,40 +95,33 @@
 }
 
 .header-image {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #1f2937;
-    background-color: gray;
-    text-align: center;
     max-width: 40%;
-    flex: 1;
+    min-width: 400px;
 }
 
 /******INFO******/
 
 .info-container {
-    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 60px 10% 120px ;
+    gap: 50px;
+    text-align: center;
 }
 
 .info-container h2 {
-    margin-top: 40px;
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
-    flex: 1;
 }
 
 .info-container .info {
-    width: 80%;
     display: flex;
-    justify-content: space-evenly;
-    gap: 30px;
-    margin-bottom: 100px;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 
 .info-box {
@@ -129,13 +129,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap: 20px;
 }
 
 .info-box .info-img {
     border: 6px solid #3882F6;
     border-radius: 20px;
-    width: 160px;
-    height: 160px;
+    width: 220px;
+    height: 220px;
 }
 
 .info-box .info-text {
@@ -146,22 +147,22 @@
 
 .thor {
     background-color: #E5E7EB;
-    height: 400px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 100px 15%;
 }
 
 .thor-text {
     max-width: 1500px;
-    padding: 80px;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
 }
 
 .thor-name {
+    margin-top: 30px;
     font-size: 24px;
     font-weight: 700;
     display: flex;
@@ -174,7 +175,7 @@
 .call-container {
     height: 300px;
     box-sizing: border-box;
-    padding: 50px 100px;
+    padding: 60px 10%;
 }
 
 .call-box {
@@ -209,7 +210,7 @@
 
 footer {
     background-color: #1f2937;
-    height: 60px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
